@@ -71,7 +71,7 @@ button {
   padding: 1rem 2rem;
   border-radius: 3rem;
   font-family: var(--font-secondary);
-  border: none;
+  border: 2px solid var(--color-btn);
   background-color: var(--color-btn);
 }
 
