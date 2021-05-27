@@ -105,3 +105,12 @@ button {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media screen and (min-width: 1024px) {
+  section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 800px;
+    margin: auto;
+  }
+}
