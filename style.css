@@ -118,7 +118,7 @@ button:hover {
   section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
   }
 }
