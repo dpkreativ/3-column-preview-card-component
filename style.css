@@ -6,6 +6,13 @@
   --font-default: sans-serif;
   --font-primary: "Big Shoulders Display", cursive;
   --font-secondary: "Lexend Deca", sans-serif;
+  --color-01: hsl(31, 77%, 52%);
+  --color-02: hsl(184, 100%, 22%);
+  --color-03: hsl(179, 100%, 13%);
+  --color-p: hsla(0, 0%, 100%, 0.75);
+  --color-bg: hsl(0, 0%, 95%);
+  --color-h: hsl(0, 0%, 95%);
+  --color-btn: hsl(0, 0%, 95%);
 }
 
 /* Attribution CSS */
