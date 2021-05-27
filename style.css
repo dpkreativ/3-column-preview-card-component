@@ -24,6 +24,11 @@
   box-sizing: border-box;
 }
 
+/* Body and Main Content Styles */
+body {
+  background-color: var(--color-bg);
+}
+
 /* Attribution CSS */
 .attribution {
   font-size: 11px;
