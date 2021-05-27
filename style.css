@@ -99,6 +99,12 @@ button {
   color: var(--color-03);
 }
 
+/* Hover State */
+button:hover {
+  background-color: transparent;
+  color: var(--color-btn);
+}
+
 /* Attribution CSS */
 .attribution {
   font-size: 11px;
