@@ -3,6 +3,7 @@
 
 /* Variables and Roots */
 :root {
+  font-size: 15px;
   --font-default: sans-serif;
   --font-primary: "Big Shoulders Display", cursive;
   --font-secondary: "Lexend Deca", sans-serif;
