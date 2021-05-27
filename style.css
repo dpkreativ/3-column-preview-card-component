@@ -16,6 +16,14 @@
   --color-btn: hsl(0, 0%, 95%);
 }
 
+/* Global Styles */
+* {
+  font-family: var(--font-default);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* Attribution CSS */
 .attribution {
   font-size: 11px;
