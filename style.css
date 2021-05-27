@@ -29,6 +29,74 @@ body {
   background-color: var(--color-bg);
 }
 
+main {
+  padding: 6rem 1.5rem;
+}
+
+section {
+  border-radius: 0.9rem;
+  overflow: hidden;
+}
+
+article {
+  padding: 3rem;
+}
+
+header {
+  margin-bottom: 1.5rem;
+}
+
+img {
+  margin-bottom: 1.5rem;
+  width: 5rem;
+}
+
+h1 {
+  font-family: var(--font-primary);
+  text-transform: uppercase;
+  font-size: 3rem;
+  color: var(--color-h);
+}
+
+p {
+  font-family: var(--font-secondary);
+  color: var(--color-p);
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
+}
+
+button {
+  padding: 1rem 2rem;
+  border-radius: 3rem;
+  font-family: var(--font-secondary);
+  border: none;
+  background-color: var(--color-btn);
+}
+
+.sedan {
+  background-color: var(--color-01);
+}
+
+.sedan > button {
+  color: var(--color-01);
+}
+
+.suv {
+  background-color: var(--color-02);
+}
+
+.suv > button {
+  color: var(--color-02);
+}
+
+.luxury {
+  background-color: var(--color-03);
+}
+
+.luxury > button {
+  color: var(--color-03);
+}
+
 /* Attribution CSS */
 .attribution {
   font-size: 11px;
