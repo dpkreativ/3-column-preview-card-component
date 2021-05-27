@@ -36,6 +36,8 @@ main {
 section {
   border-radius: 0.9rem;
   overflow: hidden;
+  max-width: 400px;
+  margin: auto;
 }
 
 article {
