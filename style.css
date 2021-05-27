@@ -1,6 +1,13 @@
 /* Import Font from Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
 
+/* Variables and Roots */
+:root {
+  --font-default: sans-serif;
+  --font-primary: "Big Shoulders Display", cursive;
+  --font-secondary: "Lexend Deca", sans-serif;
+}
+
 /* Attribution CSS */
 .attribution {
   font-size: 11px;
