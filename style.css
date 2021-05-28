@@ -1,9 +1,12 @@
 /* Import Font from Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
 
+html {
+  font-size: 15px;
+}
+
 /* Variables and Roots */
 :root {
-  font-size: 15px;
   --font-default: sans-serif;
   --font-primary: "Big Shoulders Display", cursive;
   --font-secondary: "Lexend Deca", sans-serif;
@@ -44,10 +47,6 @@ article {
   padding: 3rem;
 }
 
-header {
-  margin-bottom: 1.5rem;
-}
-
 img {
   margin-bottom: 1.5rem;
   width: 5rem;
@@ -58,10 +57,12 @@ h2 {
   text-transform: uppercase;
   font-size: 3rem;
   color: var(--color-h);
+  margin-bottom: 1.5rem;
 }
 
 p {
   font-family: var(--font-secondary);
+  font-size: 1rem;
   color: var(--color-p);
   margin-bottom: 1.5rem;
   line-height: 1.8;
@@ -71,6 +72,7 @@ button {
   padding: 1rem 2rem;
   border-radius: 3rem;
   font-family: var(--font-secondary);
+  font-size: 1rem;
   border: 2px solid var(--color-btn);
   background-color: var(--color-btn);
 }
@@ -79,7 +81,7 @@ button {
   background-color: var(--color-01);
 }
 
-.sedan > button {
+.sedan button {
   color: var(--color-01);
 }
 
@@ -87,7 +89,7 @@ button {
   background-color: var(--color-02);
 }
 
-.suv > button {
+.suv button {
   color: var(--color-02);
 }
 
@@ -95,7 +97,7 @@ button {
   background-color: var(--color-03);
 }
 
-.luxury > button {
+.luxury button {
   color: var(--color-03);
 }
 
