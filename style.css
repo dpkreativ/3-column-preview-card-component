@@ -33,7 +33,7 @@ main {
   padding: 6rem 1.5rem;
 }
 
-section {
+div {
   border-radius: 0.9rem;
   overflow: hidden;
   max-width: 400px;
@@ -116,7 +116,7 @@ button:hover {
 
 /* Screen sizes of 1024px and above */
 @media screen and (min-width: 1024px) {
-  section {
+  div {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     max-width: 900px;
